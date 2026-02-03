@@ -1,0 +1,28 @@
+<svg
+  className="w-12 h-12"
+  viewBox="-6 -6 76 76"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect width="64" height="64" rx="16" fill="#4F46E5" />
+
+  <path
+    d="M32 14
+       C22.06 14 14 22.06 14 32
+       C14 41.94 22.06 50 32 50
+       C35.2 50 38.2 49.16 40.8 47.68
+       L49 56"
+    stroke="white"
+    strokeWidth="100"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  <path
+    d="M26 32L30 36L38 28"
+    stroke="white"
+    strokeWidth="100"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+</svg>
