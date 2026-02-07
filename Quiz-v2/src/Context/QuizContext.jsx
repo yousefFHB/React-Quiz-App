@@ -7,6 +7,9 @@ export default function QuizProvider({ children }) {
     const stored = localStorage.getItem("quizzes");
     return stored ? JSON.parse(stored) : [];
   });
+  const handleRemove=()=>{
+    setQuizzes([]);
+  }
 
   useEffect(() => {
     localStorage.setItem("quizzes", JSON.stringify(quizzes));
@@ -21,7 +24,7 @@ export default function QuizProvider({ children }) {
   };
 
   return (
-    <QuizContext.Provider value={{ quizzes, createQuiz, getQuizById }}>
+    <QuizContext.Provider value={{ quizzes, createQuiz, getQuizById ,handleRemove,setQuizzes}}>
       {children}
     </QuizContext.Provider>
   );

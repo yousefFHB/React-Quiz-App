@@ -4,13 +4,20 @@ import NotLoggedIn from "../Profile/NotLoggedIn";
 import CreateQuiz from "./CreateQuiz";
 import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import { QuizContext } from "../../Context/QuizContext";
 
 export default function Quiz() {
   const { user } = useContext(AuthContext);
+  const { quizzes,setQuizzes } = useContext(QuizContext);
   const [pageType, setPageType] = useState("list");
+  
+  const handleRemove = () => {
+    if (window.confirm("آیا از حذف تمام کوییزها اطمینان دارید؟")) {
+      setQuizzes([]);
+    }
+  };
 
-  // 🔹 mock data (later replace with API)
-  const quizzes = []; // [] => no quizzes
+
 
   if (!user) {
     return <NotLoggedIn />;
@@ -37,13 +44,16 @@ export default function Quiz() {
                 <h1 className="text-3xl font-extrabold text-slate-900">
                   آزمون‌های موجود
                 </h1>
+                <div className="flex gap-6">
 
                 <Link to={"/create-quiz"}><button
-                 
+
                   className="px-6 py-3 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-500 transition"
                 >
                   ساخت کوییز جدید
                 </button></Link>
+                <button onClick={handleRemove} className="px-6 py-3 rounded-xl bg-red-600 text-white font-semibold hover:bg-red-500 transition"
+                > حذف سوالات </button></div>
               </div>
 
               {/* QUIZ LIST */}
@@ -53,12 +63,12 @@ export default function Quiz() {
                     کوییزی در دسترس نیست
                   </h3>
                   <p className="text-slate-600 mb-6">
-                    هنوز هیچ آزمونی ساخته نشده.  
+                    هنوز هیچ آزمونی ساخته نشده.
                     می‌تونی اولین کوییز رو خودت بسازی 👇
                   </p>
 
                   <Link to={"/create-quiz"} ><button
-                    
+
                     className="px-8 py-3 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-500 transition"
                   >
                     رفتن به ساخت کوییز
@@ -71,7 +81,7 @@ export default function Quiz() {
                       key={quiz.id}
                       className="bg-white/80 backdrop-blur border border-slate-200 rounded-2xl p-6 shadow hover:shadow-xl transition"
                     >
-                      <h3 className="text-lg font-bold mb-2">
+                      <h3 className="text-lg text-indigo-800 font-bold mb-2">
                         {quiz.title}
                       </h3>
                       <p className="text-slate-600 text-sm mb-4">

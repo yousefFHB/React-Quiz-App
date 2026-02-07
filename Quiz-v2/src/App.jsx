@@ -50,7 +50,7 @@ export default function App() {
                 <CreateQuiz />
               </PageWrapper>
             )} />
-            <Route path="/take-quiz" element={!token ? (
+            <Route path="/quiz/:id" element={!token ? (
               <PageWrapper>
                 <NotLoggedIn />
               </PageWrapper> // Show the pretty design instead of redirecting
@@ -59,6 +59,7 @@ export default function App() {
                 <TakeQuiz />
               </PageWrapper>
             )} />
+            <Route path="/take-quiz" element={<Navigate to="/quiz" />} />
 
             <Route
               path="/auth"
