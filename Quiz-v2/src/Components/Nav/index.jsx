@@ -28,8 +28,8 @@ export default function Nav() {
         {/* Nav */}
         <ul className="flex items-center gap-8 text-sm font-semibold text-slate-600">
           <li><Link to="/">خانه</Link></li>
-          <li><Link to="/create">ساخت آزمون</Link></li>
-          <li><Link to="/quizzes">شرکت در آزمون</Link></li>
+          <li><Link to="/create-quiz">ساخت آزمون</Link></li>
+          <li><Link to="/quiz">شرکت در آزمون</Link></li>
           <li><Link to="/about">درباره ما</Link></li>
 
           {token ? (
