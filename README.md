@@ -2,10 +2,6 @@
 
 A React + Vite quiz application built for the roadmap.sh Quiz App project.
 
-## Roadmap.sh Project
-
-- Project brief: `https://roadmap.sh/projects/quiz-app`
-
 ## Repository Layout
 
 - `Quiz-v2`: current and recommended version
