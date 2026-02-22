@@ -1,9 +1,19 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Toaster } from "react-hot-toast";
 import { Route, Routes, Navigate, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
-import { Profile, Auth, Home, NotFound, Quiz, TakeQuiz, CreateQuiz,About } from "./Pages";
+import {
+  Profile,
+  Auth,
+  Home,
+  NotFound,
+  Quiz,
+  TakeQuiz,
+  CreateQuiz,
+  About,
+} from "./Pages";
 import NotLoggedIn from "./Pages/Profile/NotLoggedIn";
 
 import Nav from "./Components/Nav";
@@ -15,6 +25,14 @@ import { AuthContext } from "./Context/AuthContext";
 export default function App() {
   const { token } = useContext(AuthContext);
   const location = useLocation();
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    const language =
+      i18n.language === "pr" || i18n.language === "fr" ? "fa" : i18n.language;
+    document.documentElement.lang = language;
+    document.documentElement.dir = language === "fa" ? "rtl" : "ltr";
+  }, [i18n.language]);
 
   return (
     <>
@@ -31,34 +49,56 @@ export default function App() {
                 </PageWrapper>
               }
             />
-            <Route path="/about" element={<PageWrapper><About /></PageWrapper>} />
-            <Route path="/quiz" element={!token ? (
-              <PageWrapper>
-                <NotLoggedIn />
-              </PageWrapper> // Show the pretty design instead of redirecting
-            ) : (
-              <PageWrapper>
-                <Quiz />
-              </PageWrapper>
-            )} />
-            <Route path="/create-quiz" element={!token ? (
-              <PageWrapper>
-                <NotLoggedIn />
-              </PageWrapper> // Show the pretty design instead of redirecting
-            ) : (
-              <PageWrapper>
-                <CreateQuiz />
-              </PageWrapper>
-            )} />
-            <Route path="/quiz/:id" element={!token ? (
-              <PageWrapper>
-                <NotLoggedIn />
-              </PageWrapper> // Show the pretty design instead of redirecting
-            ) : (
-              <PageWrapper>
-                <TakeQuiz />
-              </PageWrapper>
-            )} />
+            <Route
+              path="/about"
+              element={
+                <PageWrapper>
+                  <About />
+                </PageWrapper>
+              }
+            />
+            <Route
+              path="/quiz"
+              element={
+                !token ? (
+                  <PageWrapper>
+                    <NotLoggedIn />
+                  </PageWrapper>
+                ) : (
+                  <PageWrapper>
+                    <Quiz />
+                  </PageWrapper>
+                )
+              }
+            />
+            <Route
+              path="/create-quiz"
+              element={
+                !token ? (
+                  <PageWrapper>
+                    <NotLoggedIn />
+                  </PageWrapper>
+                ) : (
+                  <PageWrapper>
+                    <CreateQuiz />
+                  </PageWrapper>
+                )
+              }
+            />
+            <Route
+              path="/quiz/:id"
+              element={
+                !token ? (
+                  <PageWrapper>
+                    <NotLoggedIn />
+                  </PageWrapper>
+                ) : (
+                  <PageWrapper>
+                    <TakeQuiz />
+                  </PageWrapper>
+                )
+              }
+            />
             <Route path="/take-quiz" element={<Navigate to="/quiz" />} />
 
             <Route
@@ -74,14 +114,13 @@ export default function App() {
               }
             />
 
-            {/* Profile Route: Change the redirect to your new component */}
             <Route
               path="/profile"
               element={
                 !token ? (
                   <PageWrapper>
                     <NotLoggedIn />
-                  </PageWrapper> // Show the pretty design instead of redirecting
+                  </PageWrapper>
                 ) : (
                   <PageWrapper>
                     <Profile />
@@ -89,9 +128,6 @@ export default function App() {
                 )
               }
             />
-
-
-
             <Route
               path="*"
               element={

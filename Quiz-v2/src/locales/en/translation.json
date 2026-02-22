@@ -1,0 +1,216 @@
+{
+  "common": {
+    "brand": "Quizora",
+    "english": "English",
+    "persian": "Persian"
+  },
+  "nav": {
+    "home": "Home",
+    "createQuiz": "Create Quiz",
+    "takeQuiz": "Take Quiz",
+    "about": "About",
+    "profile": "Profile",
+    "logout": "Logout",
+    "auth": "Login / Register",
+    "languageAria": "Select app language"
+  },
+  "footer": {
+    "description": "A modern platform for building and solving quizzes. Learn smarter with interactive challenges.",
+    "quizzesTitle": "Quizzes",
+    "allQuizzes": "Browse Quizzes",
+    "createQuiz": "Create a Quiz",
+    "myProgress": "My Progress",
+    "platformTitle": "Platform",
+    "howItWorks": "How It Works",
+    "privacy": "Privacy",
+    "support": "Support",
+    "updatesTitle": "Updates",
+    "updatesDesc": "Get notified about new quizzes and features.",
+    "emailPlaceholder": "Your email",
+    "subscribe": "Subscribe",
+    "copyright": "© {{year}} Quizora — Built for learning"
+  },
+  "loading": {
+    "syncing": "Syncing with",
+    "storefront": "Storefront..."
+  },
+  "home": {
+    "heroTagline": "Smart learning with interactive quizzes",
+    "start": "Start",
+    "createQuiz": "Create Quiz",
+    "discover": "Discover",
+    "featuredTitle": "Featured Quizzes",
+    "featuredDesc": "Popular quizzes to challenge your knowledge",
+    "cards": {
+      "activeLearning": {
+        "title": "Active Learning",
+        "body": "Learn by answering, not only by reading."
+      },
+      "instantFeedback": {
+        "title": "Instant Feedback",
+        "body": "See your result and answer quality immediately."
+      },
+      "trackProgress": {
+        "title": "Track Progress",
+        "body": "Follow your improvement and scores over time."
+      }
+    }
+  },
+  "about": {
+    "heroTitleLine1": "The Future of Learning",
+    "heroTitleHighlight": "With Smart Quizzes",
+    "heroDesc": "Quizora is an interactive platform for creating, sharing, and taking quizzes. Make learning simpler, faster, and more enjoyable.",
+    "story": {
+      "previewLabel": "Quiz interface preview",
+      "title": "Quizora Philosophy",
+      "paragraph1": "We believe learning works best when it is interactive and measurable. Quizora helps you build quizzes that truly evaluate understanding.",
+      "paragraph2": "From classrooms to friendly competitions, this is where questions become engaging learning experiences.",
+      "statUsers": "Active users",
+      "statQuizzes": "Quizzes created"
+    },
+    "features": {
+      "title": "Why Quizora?",
+      "subtitle": "Features that make learning better",
+      "cards": [
+        {
+          "title": "Easy Quiz Building",
+          "desc": "Create professional quizzes without technical complexity."
+        },
+        {
+          "title": "Interactive Experience",
+          "desc": "Participants get immediate and clear results."
+        },
+        {
+          "title": "Management & Insights",
+          "desc": "Track quiz status and user performance in one place."
+        }
+      ]
+    },
+    "ctaTitle": "Ready to build your first quiz?",
+    "ctaButton": "Start"
+  },
+  "auth": {
+    "errors": {
+      "unexpected": "Something went wrong. Please try again."
+    },
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to continue your learning journey",
+      "usernamePlaceholder": "Username or email",
+      "passwordPlaceholder": "Password",
+      "submit": "Login",
+      "loading": "Logging in...",
+      "toggle": "Don't have an account? Register",
+      "successLocal": "Logged in with local account",
+      "success": "Logged in successfully",
+      "invalidCredentials": "Username or password is incorrect"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join Quizora and start learning smarter",
+      "usernamePlaceholder": "Username",
+      "emailPlaceholder": "Email address",
+      "passwordPlaceholder": "Password",
+      "submit": "Register",
+      "loading": "Creating account...",
+      "toggle": "Already have an account? Login",
+      "success": "Registered successfully",
+      "errors": {
+        "required": "All fields are required"
+      }
+    }
+  },
+  "profile": {
+    "account": {
+      "title": "Account Information",
+      "username": "Username",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "phonePlaceholder": "Enter your phone number",
+      "addressPlaceholder": "Enter your address",
+      "mapPopup": "Your location"
+    },
+    "security": {
+      "title": "Account Security",
+      "password": "Password",
+      "changePassword": "Change Password",
+      "twoFactor": "Two-factor authentication",
+      "lastLogin": "Last login: 2 hours ago"
+    },
+    "activity": {
+      "title": "Learning Activities",
+      "inProgress": "In Progress",
+      "inProgressValue": "No active quiz",
+      "completed": "Completed",
+      "completedValue": "2 successful quizzes",
+      "archive": "Archive",
+      "archiveValue": "View history"
+    },
+    "support": {
+      "title": "Support & Communication",
+      "contact": "Contact Support",
+      "feedback": "Send Feedback",
+      "report": "Report Issue",
+      "deleteAccount": "Delete Account"
+    }
+  },
+  "notLoggedIn": {
+    "title": "Restricted Access",
+    "description": "Please log in to access profile and quiz features.",
+    "button": "Go to Login",
+    "secureAccess": "SECURE ACCESS"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "This page does not exist. Let's get you back to learning.",
+    "homeButton": "Back to Home",
+    "quizButton": "Go to Quizzes"
+  },
+  "quizList": {
+    "title": "Available Quizzes",
+    "createButton": "Create New Quiz",
+    "removeAllButton": "Delete All",
+    "emptyTitle": "No quiz available",
+    "emptyDescription": "No quizzes have been created yet. Build your first quiz now.",
+    "emptyAction": "Create Quiz",
+    "joinButton": "Join Quiz",
+    "confirmRemoveAll": "Are you sure you want to delete all quizzes?"
+  },
+  "quizCreate": {
+    "title": "Create New Quiz",
+    "subtitle": "Enter bilingual quiz details and questions.",
+    "englishVersion": "English Version",
+    "persianVersion": "Persian Version",
+    "quizTitleEnPlaceholder": "Quiz title in English (e.g. React Basics)",
+    "quizTitleFaPlaceholder": "Quiz title in Persian",
+    "quizDescriptionEnPlaceholder": "Short English description...",
+    "quizDescriptionFaPlaceholder": "Short Persian description...",
+    "questionTitle": "Question Text",
+    "questionEnPlaceholder": "Write the question in English...",
+    "questionFaPlaceholder": "Write the question in Persian...",
+    "optionEnPlaceholder": "Option {{index}} (English)",
+    "optionFaPlaceholder": "Option {{index}} (Persian)",
+    "correctOptionLabel": "Choose the correct option",
+    "correctOptionValue": "Option {{index}} is correct",
+    "addQuestion": "Add Question",
+    "questionsCount": "Questions: {{count}}",
+    "removeQuestion": "Remove",
+    "saveQuiz": "Save Quiz",
+    "cancel": "Cancel",
+    "errors": {
+      "questionAndOptionsRequired": "Please fill both Persian and English question text and all options.",
+      "addAtLeastOneQuestion": "Add at least one question before saving."
+    }
+  },
+  "quizTake": {
+    "notFound": "Quiz not found",
+    "noQuestions": "This quiz has no questions",
+    "questionProgress": "Question {{current}} / {{total}}",
+    "selectOptionError": "Select an option to continue.",
+    "finish": "Finish Quiz",
+    "next": "Next Question",
+    "score": "Your score: {{score}} / {{total}}",
+    "restart": "Try Again"
+  }
+}

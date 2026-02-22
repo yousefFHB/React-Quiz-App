@@ -1,0 +1,216 @@
+{
+  "common": {
+    "brand": "کوییزورا",
+    "english": "English",
+    "persian": "فارسی"
+  },
+  "nav": {
+    "home": "خانه",
+    "createQuiz": "ساخت آزمون",
+    "takeQuiz": "شرکت در آزمون",
+    "about": "درباره ما",
+    "profile": "پروفایل",
+    "logout": "خروج",
+    "auth": "ورود / ثبت نام",
+    "languageAria": "انتخاب زبان برنامه"
+  },
+  "footer": {
+    "description": "یک پلتفرم مدرن برای ساخت و حل آزمون‌ها. هوشمندتر با چالش‌های تعاملی یاد بگیرید.",
+    "quizzesTitle": "کوییزها",
+    "allQuizzes": "مشاهده کوییزها",
+    "createQuiz": "ساخت کوییز",
+    "myProgress": "پیشرفت من",
+    "platformTitle": "پلتفرم",
+    "howItWorks": "نحوه کار",
+    "privacy": "حریم خصوصی",
+    "support": "پشتیبانی",
+    "updatesTitle": "به‌روزرسانی‌ها",
+    "updatesDesc": "از کوییزها و قابلیت‌های جدید باخبر شوید.",
+    "emailPlaceholder": "ایمیل شما",
+    "subscribe": "عضویت",
+    "copyright": "© {{year}} کوییزورا — ساخته شده برای یادگیری"
+  },
+  "loading": {
+    "syncing": "در حال همگام‌سازی با",
+    "storefront": "فروشگاه..."
+  },
+  "home": {
+    "heroTagline": "یادگیری هوشمند با کوییزهای تعاملی",
+    "start": "شروع",
+    "createQuiz": "ساخت کوییز",
+    "discover": "کشف کنید",
+    "featuredTitle": "کوییزهای ویژه",
+    "featuredDesc": "کوییزهای محبوب برای به چالش کشیدن دانش شما",
+    "cards": {
+      "activeLearning": {
+        "title": "یادگیری فعال",
+        "body": "با پاسخ دادن یاد بگیرید، نه فقط با خواندن."
+      },
+      "instantFeedback": {
+        "title": "بازخورد فوری",
+        "body": "نتیجه و کیفیت پاسخ‌ها را لحظه‌ای ببینید."
+      },
+      "trackProgress": {
+        "title": "پیگیری پیشرفت",
+        "body": "روند پیشرفت و امتیازهای خود را دنبال کنید."
+      }
+    }
+  },
+  "about": {
+    "heroTitleLine1": "آینده یادگیری",
+    "heroTitleHighlight": "با کوییزهای هوشمند",
+    "heroDesc": "Quizora یک پلتفرم تعاملی برای ساخت، اشتراک‌گذاری و شرکت در آزمون‌هاست. یادگیری را ساده‌تر، سریع‌تر و لذت‌بخش‌تر تجربه کن.",
+    "story": {
+      "previewLabel": "پیش‌نمایش محیط آزمون",
+      "title": "فلسفه Quizora",
+      "paragraph1": "ما باور داریم یادگیری زمانی موثر است که تعاملی و قابل سنجش باشد. Quizora به شما اجازه می‌دهد آزمون‌هایی بسازید که واقعاً سطح دانش را نشان دهند.",
+      "paragraph2": "از کلاس‌های آموزشی تا رقابت‌های دوستانه، اینجا جایی است که سوال‌ها به تجربه یادگیری تبدیل می‌شوند.",
+      "statUsers": "کاربر فعال",
+      "statQuizzes": "کوییز ساخته‌شده"
+    },
+    "features": {
+      "title": "چرا Quizora؟",
+      "subtitle": "ویژگی‌هایی که یادگیری را بهتر می‌کنند",
+      "cards": [
+        {
+          "title": "ساخت آسان کوییز",
+          "desc": "بدون نیاز به دانش فنی، آزمون‌های حرفه‌ای بساز."
+        },
+        {
+          "title": "تجربه تعاملی",
+          "desc": "شرکت‌کنندگان نتایج را لحظه‌ای مشاهده می‌کنند."
+        },
+        {
+          "title": "مدیریت و تحلیل",
+          "desc": "وضعیت آزمون‌ها و عملکرد کاربران را بررسی کن."
+        }
+      ]
+    },
+    "ctaTitle": "آماده‌ای اولین کوییزت رو بسازی؟",
+    "ctaButton": "شروع کن"
+  },
+  "auth": {
+    "errors": {
+      "unexpected": "خطایی رخ داد. دوباره تلاش کنید."
+    },
+    "login": {
+      "title": "خوش آمدید",
+      "subtitle": "برای ادامه مسیر یادگیری وارد حساب خود شوید",
+      "usernamePlaceholder": "نام کاربری یا ایمیل",
+      "passwordPlaceholder": "رمز عبور",
+      "submit": "ورود",
+      "loading": "در حال ورود...",
+      "toggle": "حساب کاربری ندارید؟ ثبت نام کنید",
+      "successLocal": "ورود با حساب محلی انجام شد",
+      "success": "با موفقیت وارد شدید",
+      "invalidCredentials": "نام کاربری یا رمز عبور اشتباه است"
+    },
+    "register": {
+      "title": "ساخت حساب کاربری",
+      "subtitle": "به کوییزورا بپیوندید و یادگیری هوشمندانه را شروع کنید",
+      "usernamePlaceholder": "نام کاربری",
+      "emailPlaceholder": "آدرس ایمیل",
+      "passwordPlaceholder": "رمز عبور",
+      "submit": "ثبت نام",
+      "loading": "در حال ساخت حساب...",
+      "toggle": "حساب کاربری دارید؟ وارد شوید",
+      "success": "ثبت نام با موفقیت انجام شد",
+      "errors": {
+        "required": "همه فیلدها الزامی هستند"
+      }
+    }
+  },
+  "profile": {
+    "account": {
+      "title": "اطلاعات کاربری",
+      "username": "نام کاربری",
+      "email": "ایمیل",
+      "phone": "تلفن",
+      "address": "آدرس",
+      "phonePlaceholder": "شماره تلفن خود را وارد کنید",
+      "addressPlaceholder": "آدرس خود را وارد کنید",
+      "mapPopup": "موقعیت شما"
+    },
+    "security": {
+      "title": "امنیت حساب",
+      "password": "رمز عبور",
+      "changePassword": "تغییر رمز عبور",
+      "twoFactor": "احراز هویت دو مرحله‌ای",
+      "lastLogin": "آخرین ورود: ۲ ساعت پیش"
+    },
+    "activity": {
+      "title": "فعالیت‌های آموزشی",
+      "inProgress": "در حال انجام",
+      "inProgressValue": "کوییز فعالی وجود ندارد",
+      "completed": "تکمیل شده",
+      "completedValue": "۲ آزمون موفق",
+      "archive": "آرشیو",
+      "archiveValue": "مشاهده تاریخچه"
+    },
+    "support": {
+      "title": "پشتیبانی و ارتباط",
+      "contact": "تماس با پشتیبانی",
+      "feedback": "ارسال بازخورد",
+      "report": "گزارش مشکل",
+      "deleteAccount": "حذف حساب کاربری"
+    }
+  },
+  "notLoggedIn": {
+    "title": "دسترسی محدود",
+    "description": "برای مشاهده پروفایل و امکانات آموزشی، لطفاً وارد حساب کاربری خود شوید.",
+    "button": "ورود به حساب",
+    "secureAccess": "دسترسی امن"
+  },
+  "notFound": {
+    "title": "صفحه پیدا نشد",
+    "description": "به نظر می‌رسد این صفحه وجود ندارد. بیایید به مسیر یادگیری برگردیم.",
+    "homeButton": "بازگشت به خانه",
+    "quizButton": "مشاهده کوییزها"
+  },
+  "quizList": {
+    "title": "آزمون‌های موجود",
+    "createButton": "ساخت کوییز جدید",
+    "removeAllButton": "حذف همه",
+    "emptyTitle": "کوییزی در دسترس نیست",
+    "emptyDescription": "هنوز هیچ آزمونی ساخته نشده. اولین کوییزت را بساز.",
+    "emptyAction": "رفتن به ساخت کوییز",
+    "joinButton": "شرکت در آزمون",
+    "confirmRemoveAll": "آیا از حذف تمام کوییزها اطمینان دارید؟"
+  },
+  "quizCreate": {
+    "title": "ساخت کوییز جدید",
+    "subtitle": "اطلاعات آزمون و سوالات دو زبانه را وارد کنید.",
+    "englishVersion": "نسخه انگلیسی",
+    "persianVersion": "نسخه فارسی",
+    "quizTitleEnPlaceholder": "عنوان آزمون به انگلیسی (مثال: React Basics)",
+    "quizTitleFaPlaceholder": "عنوان آزمون به فارسی",
+    "quizDescriptionEnPlaceholder": "توضیح کوتاه انگلیسی...",
+    "quizDescriptionFaPlaceholder": "توضیح کوتاه فارسی...",
+    "questionTitle": "متن سوال",
+    "questionEnPlaceholder": "سوال را به انگلیسی بنویسید...",
+    "questionFaPlaceholder": "سوال را به فارسی بنویسید...",
+    "optionEnPlaceholder": "گزینه {{index}} (انگلیسی)",
+    "optionFaPlaceholder": "گزینه {{index}} (فارسی)",
+    "correctOptionLabel": "پاسخ صحیح را انتخاب کنید",
+    "correctOptionValue": "گزینه {{index}} صحیح است",
+    "addQuestion": "افزودن سوال",
+    "questionsCount": "تعداد سوالات: {{count}}",
+    "removeQuestion": "حذف",
+    "saveQuiz": "ذخیره کوییز",
+    "cancel": "انصراف",
+    "errors": {
+      "questionAndOptionsRequired": "متن سوال و تمام گزینه‌ها را در هر دو زبان فارسی و انگلیسی تکمیل کنید.",
+      "addAtLeastOneQuestion": "قبل از ذخیره حداقل یک سوال اضافه کنید."
+    }
+  },
+  "quizTake": {
+    "notFound": "کوییز پیدا نشد",
+    "noQuestions": "هیچ سوالی برای این کوییز وجود ندارد",
+    "questionProgress": "سوال {{current}} / {{total}}",
+    "selectOptionError": "برای ادامه یک گزینه را انتخاب کنید.",
+    "finish": "اتمام آزمون",
+    "next": "سوال بعدی",
+    "score": "نمره شما: {{score}} / {{total}}",
+    "restart": "تلاش دوباره"
+  }
+}
