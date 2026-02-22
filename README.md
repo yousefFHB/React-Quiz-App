@@ -10,7 +10,7 @@ If you want to run or deploy this project, use `Quiz-v2`.
 
 ## Homepage Preview
 
-![Homepage preview](Quiz-v2/src/assests/Images/Home-page.png)
+![Homepage preview](Quiz-v2/src/assets/Images/Home-page.png)
 
 ## Features (Quiz-v2)
 
