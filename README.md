@@ -12,6 +12,10 @@ A React + Vite quiz application built for the roadmap.sh Quiz App project.
 
 If you want to run or deploy this project, use `Quiz-v2`.
 
+## Homepage Preview
+
+![Homepage preview](Quiz-v2/src/assests/Images/Home-page.png)
+
 ## Features (Quiz-v2)
 
 - User authentication flow (register/login)
